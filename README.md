@@ -242,8 +242,8 @@ variable "candidato" {
 - type: Define o tipo da variável.
 - default: Especifica o valor padrão da variável.
 
-Obs:  Para acessar uma variável, utiliza-se a sintaxe entre aspas duplas: ${var.nome_da_variavel}, as variaveis também podem ser acessadas diretamente utilizando apenas o prefixo var.nome_da_variavel.
- Por exemplo, para utilizar a variável "projeto", você pode usar "${var.projeto}" ou var.projeto.
+Obs: As variaveis também podem ser acessadas diretamente utilizando apenas o prefixo var.nome_da_variavel.
+ Por exemplo, para utilizar a variável "projeto", pode-se utilizar var.projeto.
  Podem ser criadas variáveis para configurar o projeto. Por exemplo, ao definir uma variável para a região, é possível alterar a configuração do projeto simplesmente modificando o valor dessa variável quando necessário.
 
  ### Instância:
