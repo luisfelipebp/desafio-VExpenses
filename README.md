@@ -1,5 +1,5 @@
 
-# Descrição técnica do projeto do arquivo Terraform
+# Descrição técnica do arquivo Terraform
 
 ## Análise Técnica do Código Terraform
 
