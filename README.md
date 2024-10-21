@@ -369,9 +369,9 @@ Para aprimorar a organização e a legibilidade do código, dividi o projeto em 
 
 - Módulo VPC: Responsável pela criação e configuração da Virtual Private Cloud (VPC).
 - Módulo Vars: Contém todas as variáveis necessárias para a configuração do projeto, facilitando a reutilização e a manutenção do código.
-- Módulo Security Group: Define as regras de segurança para controlar o tráfego de entrada e saída dos recursos.
+- Módulo SecGrp: Define as regras de segurança para controlar o tráfego de entrada e saída dos recursos.
 - Módulo Provider: Configura o provedor AWS e suas respectivas regiões.
-- Módulo Key Pairs: Gerencia a criação e a configuração das chaves de acesso para instâncias EC2.
+- Módulo Main: Responsável pela criação e configuração da instância EC2.
 
 
 ### Variáveis: 
